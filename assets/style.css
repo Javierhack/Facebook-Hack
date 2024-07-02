@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+	font-size: 14px;
+}
+body{
+
+	padding: 9em 0;
+	background: rgb(236, 240, 243);
+}
+
+form{
+box-shadow: 0px 0px 11px -4px rgba(91,88,88,0.75);
+-webkit-box-shadow: 0px 0px 11px -4px rgba(91,88,88,0.75);
+-moz-box-shadow: 0px 0px 11px -4px rgba(91,88,88,0.75);
+	border-radius: 9px;
+	background: #fff;
+
+	width: 28em;
+	margin: auto;
+	text-align: center;
+	border: 2px solid #ddd;
+	padding: 2em 1em;
+}
+form .user{
+
+	width:100%;
+	padding: 1em 0;
+
+}
+form input{
+
+	padding: 1em .5em;
+	width: 100%;
+	border: 2px solid #ddd;
+	border-radius: 4px;
+	color: rgb(104, 103, 103);
+
+}
+.btn-send{
+	margin-top: 2em;
+}
+.btn-send input{
+
+	background: rgb(22, 111, 229);
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+.pass{
+
+	margin-top: .7em;
+	text-decoration: none;
+}
+.pass a{
+	text-decoration: none;
+	color: rgb(123, 123, 123);
+	cursor: pointer;
+}
+
+.new a{
+
+	padding: 15px 30px;
+	background: rgb(54, 164, 32);
+	display: inline-block;
+	margin-top: 3em;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 6px;
+	font-size: 14px;
+}
+
+.container-login{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-facebook{
+	width: 500px;
+	margin-top: -80px;
+}
+.title-facebook h1{
+	font-size: 4.3em;
+	color: rgb(8, 102, 255);
+}
+.title-facebook h2{
+	font-size: 26px;
+	font-weight: 100;
+
+}
+.title-footer{
+	margin-top: 30px;
+}
+.font{
+	font-weight: bold;
+	margin-left: 8px;
+}
+
+@media screen and (max-width: 1000px){
+	.container-login{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.title-facebook{
+		text-align: center;
+		
+	}
+	.title-facebook h1{
+		padding-bottom: 15px;
+		font-size: 4em;
+	}
+	.title-facebook h2{
+		padding-bottom: 40px;
+		font-size: 23px;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+	}
+	
+}
+@media screen and (max-width: 430px){
+	
+	form{
+
+		width: 90%;
+		margin: auto;
+		text-align: center;
+		border: 2px solid #ddd;
+		padding: 1em 1em;
+	}
+	.font{
+		margin-left: 0px;
+	}
+	
+	.title-facebook h2{
+		font-size: 21px;
+	}
+	
+}
+@media screen and (max-width: 505px){
+	.title-facebook{
+		width: 100%;
+	}
+}
